@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context="com.example.android.e-Scheduler.MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:text="Atal Bihari Vajpayee Indian Institute of Information Technology, Gwalior"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/l"
+            style="@style/CategoryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="List of Authorities:"
+            android:textSize="22sp" />
+
+
+        <TextView
+            android:id="@+id/a"
+            style="@style/CategoryStyle"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. Anurag Srivastava"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="1.SAC related problems
+2.TIIC Lab issues" />
+
+        <TextView
+            android:id="@+id/b"
+            style="@style/CategoryStyle"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. Pankaj Gupta"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="1.Certificates issuing 2.Scholarship issues" />
+
+
+        <TextView
+            android:id="@+id/c"
+            style="@style/CategoryStyle"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. Shashikala Tapaswi"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="1.Webmail related issues
+2.Academic Problems" />
+
+        <TextView
+            android:id="@+id/d"
+            style="@style/CategoryStyle"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. Anupam Shukla"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="1.Hostel Chief Warden 2.Ragging issues" />
+
+        <TextView
+            android:id="@+id/k"
+            style="@style/CategoryStyle"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. Rajendra Sahu"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="1.Regarding Placement Cell 2.NOC issuing"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/m"
+            style="@style/CategoryStyle"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:text="Dr. W Wilfred Godfrey"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/SubCategoryStyle"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/small_border"
+            android:text="Server room and internet issues"
+            android:textSize="9dp" />
+
+
+    </LinearLayout>
+</ScrollView>
